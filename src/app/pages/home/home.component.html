@@ -1,0 +1,100 @@
+
+<head>
+  <meta charset="UTF-8">
+  <title>Menu Lateral | HTML, CSS e JS</title>
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="/src/app/pages/home/home.component.scss">
+  <link rel="icon" type="image/x-icon" href="/assets/favicon-16x16.png">
+
+</head>
+
+<body>
+
+  <nav class="sidebar close">
+    <header>
+      <div class="image-text">
+        <span class="image">
+          <img src="/assets/logo_gripmaster1.png.webp" alt="logo">
+        </span>
+      </div>
+
+      <i class='bx bx-chevron-right toggle'></i>
+    </header>
+
+    <div class="menu-bar">
+      <div class="menu">
+        <ul class="menu-links">
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-home-alt icon'></i>
+              <span class="text nav-text">Financeiro</span>
+            </a>
+          </li>
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-bar-chart-alt-2 icon'></i>
+              <span class="text nav-text">Marketing</span>
+            </a>
+          </li>
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-bell icon'></i>
+              <span class="text nav-text">tecnico</span>
+            </a>
+          </li>
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-pie-chart-alt icon'></i>
+              <span class="text nav-text">Análise</span>
+            </a>
+          </li>
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-heart icon'></i>
+              <span class="text nav-text">Likes</span>
+            </a>
+          </li>
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-wallet icon'></i>
+              <span class="text nav-text">Carteiras</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="bottom-content">
+        <li class="">
+          <a href="#">
+            <i class='bx bx-log-out icon'></i>
+            <span class="text nav-text">Logout</span>
+          </a>
+        </li>
+
+          </div>
+
+
+      </div>
+   
+  </nav>
+
+  <section class="home">
+    <div class="cabecalho">
+      <div class="search-box">
+        <i class='bx bx-search icon'></i>
+        <input type="text" id="input-search" placeholder="Pesquisa...">
+      </div>
+     
+      <img class="cabecalho-perfil" src="/assets/man.png" alt="">
+      <label for="">Nome</label>
+
+        <a id="sino" href="#">
+          <i class='bx bx-bell icon'></i>
+        </a>
+    </div>
+  </section>
+
+  <script src="/app/pages/home/script.js"></script>
+
+</body>
+

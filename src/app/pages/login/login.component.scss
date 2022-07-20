@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  main.container{
+    position:absolute;
+    top: 200px;
+    right :250px;
+    border: solid 2px lightgray;
+    background: white;
+    max-width: 320px;
+    min-height: 40vh;
+    padding: 2rem;
+    border-radius: 8px;
+    
+  }
+  
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  img{
+    position: relative;
+    top: 0;
+    width: 180px;
+    margin-bottom: 2rem;
+    
+  }
+  
+  form img{
+    align-self: center;
+  }
+  
+  button:hover {
+    letter-spacing: 0.5px;
+    filter: brightness(90%);
+  }
+  
+  button[type="submit"]{
+    margin-top: 2rem;
+    padding: 0;
+    background: #fffb00;
+    cursor: pointer;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 300;
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  input[type="password"], input[type="text"] {
+    color: #333;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 0 15px;
+  }
+  
+  .footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  
+  .footer a{
+    position: absolute;
+    right: 10px;
+    color: lightgray;
+    font-size:1.0rem;
+    text-align: center;
+  }
+  
+  section img{
+    position:relative;
+    left: 0px;
+    height: 650px;
+    width: 45%;
+    margin-bottom: 0%;
+  
+  }
+  
+  @media only screen and (min-width: 900px) and (max-width: 1200px) {
+    section.images img {
+        width: 110%;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 900px) {
+    section.images {
+        display: none;
+        visibility: hidden;
+    }
+  
+    main {
+        width: 100vw;
+    }
+  }
+  
+  @media only screen and (max-width: 450px) {
+    main h1 {
+        font-size: 2rem;
+    }
+  
+    main .conteiner span {
+        font-size: 0.8rem;
+    }
+  
+  }
