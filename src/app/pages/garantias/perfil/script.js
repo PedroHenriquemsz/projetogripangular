@@ -12,11 +12,11 @@ $(document).ready(function() {
         }
     }
    
-    $(".file-upload").on('change', function(){
+    $(".my_file").on('change', function(){
         readURL(this);
     });
     
     $(".upload-button").on('click', function() {
-       $(".file-upload").click();
+       $(".my_file").click();
     });
 });
